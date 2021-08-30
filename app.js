@@ -10,6 +10,7 @@ App({
         key: 'mallName'
       },
       success: function(res) {
+        console.log(res)
         wx.setStorageSync('mallName', res.data.data.value);
       }
     })

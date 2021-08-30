@@ -32,6 +32,7 @@ Page({
         key: 'mallName'
       },
       success: function (res) {
+        console.log(res)
         var banners = [];
         var envpics = [];
         for (var i = 0; i < res.data.data.length; i++){
