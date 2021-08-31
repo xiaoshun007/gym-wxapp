@@ -21,7 +21,7 @@
                     </navigator>
                     </view>
                     <view class="article__desc">
-                        <text class="article__time">上月成功预约{{ item.income }}次</text>
+                        <text class="article__time">上月成功预约{{ item.commentNumber }}次</text>
                     </view>
                 </view>
             </view>
@@ -55,4 +55,4 @@
         </block>
     </view>
 </view>
-<view class="footaboutme"><text>技术支持：智汇番茄科技工作室\r\nWechat：18629027590</text></view>
+<view class="footaboutme"><text>技术支持：NullPointer科技工作室\r\nWechat：xiaoshun007</text></view>

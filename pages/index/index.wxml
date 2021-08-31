@@ -37,4 +37,4 @@
     </view>
     <view hidden="{{loadingMoreHidden ? true : false}}" class="no-more-goods">没有更多啦</view>
 </view>
-<view class="footaboutme"><text>技术支持：智汇番茄科技工作室\r\nWechat：18629027590</text></view>
+<view class="footaboutme"><text>技术支持：NullPointer科技工作室\r\nWechat：xiaoshun007</text></view>

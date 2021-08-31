@@ -92,6 +92,7 @@ Page({
         categoryId: categoryId
       },
       success: function (res) {
+        console.log(res)
         var StarCoaches = [];
         var Coaches = [];
         for (var i = 0; i < res.data.data.length; i++) {
