@@ -5,7 +5,7 @@
 		<text class="userinfo-nickname">{{ userInfo.nickName }}</text>
 	</view>
   <view class="zan-panel">
-    <view class="zan-cell zan-cell--access" wx:for="{{ items }}" wx:key="" data-path="{{ item.path }}" data-index="{{ index }}" bindtap="navigateTo">
+    <view class="zan-cell zan-cell--access" wx:for="{{ items }}" wx:key="unique" data-path="{{ item.path }}" data-index="{{ index }}" bindtap="navigateTo">
       <view class="zan-cell__bd">
           <image src="{{item.icon}}" class="img"></image>
           <text>{{ item.text }}</text>
@@ -14,7 +14,7 @@
     </view>
   </view>
   <view class="zan-panel">
-    <view class="zan-cell zan-cell--access" wx:for="{{ settings }}" wx:key="" data-path="{{ item.path }}" data-index="{{ index }}" bindtap="navigateTo">
+    <view class="zan-cell zan-cell--access" wx:for="{{ settings }}" wx:key="unique" data-path="{{ item.path }}" data-index="{{ index }}" bindtap="navigateTo">
       <view class="zan-cell__bd">
           <image src="{{item.icon}}" class="img"></image>
           {{ item.text }}
@@ -43,7 +43,7 @@
   </view>
 	<!--<view class="info_list">
 		<view class="weui-cells">
-			<navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" wx:for="{{ items }}" wx:key="" data-path="{{ item.path }}" data-index="{{ index }}" bindtap="navigateTo">
+			<navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" wx:for="{{ items }}" wx:key="unique" data-path="{{ item.path }}" data-index="{{ index }}" bindtap="navigateTo">
                 <view class="weui-cell__hd">
                     <image src="{{ item.icon }}" style="margin-bottom: 2px;margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
                 </view>
@@ -54,7 +54,7 @@
             </navigator>
         </view>
         <view class="weui-cells">
-            <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" wx:for="{{ settings }}" wx:key="" data-path="{{ item.path }}" data-index="{{ index }}" bindtap="bindtap">
+            <navigator class="weui-cell weui-cell_access" hover-class="weui-cell_active" wx:for="{{ settings }}" wx:key="unique" data-path="{{ item.path }}" data-index="{{ index }}" bindtap="bindtap">
                 <view class="weui-cell__hd">
                     <image src="{{ item.icon }}" style="margin-bottom: 2px;margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
                 </view>

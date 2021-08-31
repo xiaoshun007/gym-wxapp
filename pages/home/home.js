@@ -245,5 +245,10 @@ Page({
     wx.navigateTo({
       url: "/pages/coaches/coaches?coachid=" + this.data.coachcategoryid
     })
+  },
+  toAllArticlesTap:function (){
+    wx.navigateTo({
+      url: "/pages/coaches/coaches?coachid=" + this.data.articlecategoryid
+    })
   }
 })
