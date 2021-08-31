@@ -58,11 +58,11 @@ page{
     width: 870rpx;
     box-sizing: border-box;
     transition: margin-left 0.2s ease-in-out;
-    background: url(https://cdn.it120.cc/images/weappshop/gou.png) no-repeat 30rpx center;
+    background: url(https://dcdn.it120.cc/2021/08/31/9932a730-78bf-4a56-9f06-3008db736225.png) no-repeat 30rpx center;
     background-size: 40rpx auto; 
 }
 .a-goods-conts.active{
-    background: url(https://cdn.it120.cc/images/weappshop/gou-red.png) no-repeat 30rpx center;
+    background: url(https://dcdn.it120.cc/2021/08/31/f3dd23e3-5ae5-41cb-990d-f82129a1b2d5.png) no-repeat 30rpx center;
     background-size: 40rpx auto; 
 }
 .goods-info{
@@ -205,11 +205,11 @@ page{
 .jiesuan-box .all-selected{
     padding-left: 90rpx;
     color:#000000;
-    background: url(https://cdn.it120.cc/images/weappshop/gou.png) no-repeat 30rpx center;
+    background: url(https://dcdn.it120.cc/2021/08/31/9932a730-78bf-4a56-9f06-3008db736225.png) no-repeat 30rpx center;
     background-size: 40rpx auto; 
 }
 .jiesuan-box .all-selected.active{
-    background: url(https://cdn.it120.cc/images/weappshop/gou-red.png) no-repeat 30rpx center;
+    background: url(https://dcdn.it120.cc/2021/08/31/f3dd23e3-5ae5-41cb-990d-f82129a1b2d5.png) no-repeat 30rpx center;
     background-size: 40rpx auto; 
 }
 .jiesuan-box .total{

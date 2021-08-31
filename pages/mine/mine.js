@@ -33,7 +33,7 @@ Page({
       {
         icon: '../../images/mine/support.png',
         text: '联系客服',
-        path: '18629027590',
+        path: '18625154261',
       },
     ],
     settings: [
