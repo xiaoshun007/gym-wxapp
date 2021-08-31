@@ -11,7 +11,7 @@
      </view>
      <view class="goods-list">
         <view class="list-title">{{mallName}}</view>
-        <view class="a-goods" wx:for-items="{{goodsList}}" wx:key="{{index}}">
+        <view class="a-goods" wx:for-items="{{goodsList}}" wx:key="index">
             <view class="img-box">
                 <image src="{{item.pic}}" class="img" />
             </view>

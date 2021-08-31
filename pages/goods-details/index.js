@@ -267,16 +267,16 @@ Page({
       modalHidden: false
     });
 
-    // if(this.data.buyNumber < 1){
-    //   wx.showModal({
-    //     title: '提示',
-    //     content: '课程爆满了哦~',
-    //     showCancel:false
-    //   })
-    //   return;
-    // }
-    // this.addShopCar();
-    // this.goShopCar();
+    if(this.data.buyNumber < 1){
+      wx.showModal({
+        title: '提示',
+        content: '课程爆满了哦~',
+        showCancel:false
+      })
+      return;
+    }
+    this.addShopCar();
+    this.goShopCar();
   },
   modalHide:function () {
     this.setData({
