@@ -275,18 +275,21 @@ Page({
       })
       return;
     }
-    this.addShopCar();
-    this.goShopCar();
+    
   },
   modalHide:function () {
     this.setData({
       modalContent: '',
       modalHidden: true
     });
-    wx.showModal({
-      title: '提示',
-      content: '具体预定方式待与商家沟通后继续开发。谢谢配合。',
-    })
+    // wx.showModal({
+    //   title: '提示',
+    //   content: '具体预定方式待与商家沟通后继续开发。谢谢配合。',
+    // })
+    // 加入购物车
+    this.addShopCar();
+    // 跳转到购物车-确认预定
+    this.goShopCar();
   },
   modalHideCancle:function (){
     this.setData({

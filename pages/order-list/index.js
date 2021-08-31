@@ -49,6 +49,7 @@ Page({
   toPayTap:function(e){
     var orderId = e.currentTarget.dataset.id;
     var money = e.currentTarget.dataset.money;
+    console.log(e)
     wxpay.wxpay(app, money, orderId, "/pages/order-list/index");
   },
   onLoad:function(options){
