@@ -10,7 +10,7 @@ page{
     text-align: center;
     font-size:28rpx;
     color:#999;
-    background: url(https://cdn.it120.cc/images/weappshop/icon-cart.png) no-repeat center 205rpx;
+    background: url(https://dcdn.it120.cc/2021/08/31/028691ac-bf9a-47e4-a8d2-6fefadabeb7f.png) no-repeat center 205rpx;
     background-size: 100rpx auto;
     margin-bottom: 50rpx;
 }
