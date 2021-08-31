@@ -85,7 +85,8 @@ Page({
     wx.request({
       url: 'https://api.it120.cc/' + app.globalData.subDomain + '/cms/news/list',
       data: {
-        categoryId: categoryId
+        categoryId: categoryId,
+        isRecommend: true
       },
       success: function (res) {
         var news = [];

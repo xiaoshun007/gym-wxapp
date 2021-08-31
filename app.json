@@ -30,7 +30,6 @@
     "selectedColor": "#e64340",
     "borderStyle": "black",
     "backgroundColor": "#000",
-    "box-shadow": "0 0 6px 0",
     "list": [
       {
         "pagePath": "pages/home/home",
