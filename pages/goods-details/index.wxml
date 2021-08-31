@@ -20,7 +20,7 @@
         <view class="zan-font-10">
           <text>{{goodsDetail.basicInfo.characteristic}}</text>
         </view>
-        <view class="goods-price">¥ {{selectSizePrice}}</view>
+        <!--<view class="goods-price">¥ {{selectSizePrice}}</view>-->
    </view>
    <view wx:if="{{hasMoreSelect}}" class="row-arrow" bindtap="bindGuiGeTap">
       {{selectSize}}
@@ -30,6 +30,7 @@
         <view class="goods-text">
             <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
          </view>
+         <view class="goods-price">¥ {{selectSizePrice}}</view>
     </view>
     <view class="footer-box">
         <!--<view class="shop-cart-btn" bindtap="goShopCar">

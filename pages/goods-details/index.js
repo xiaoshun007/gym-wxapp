@@ -110,8 +110,9 @@ Page({
   },
   labelItemTap: function(e) {
     var that = this;
-    /*
+   
     console.log(e)
+     /*
     console.log(e.currentTarget.dataset.propertyid)
     console.log(e.currentTarget.dataset.propertyname)
     console.log(e.currentTarget.dataset.propertychildid)
@@ -135,7 +136,7 @@ Page({
         if(childs[j].active){
           curSelectNum++;
           propertyChildIds = propertyChildIds + that.data.goodsDetail.properties[i].id + ":"+ childs[j].id +",";
-          propertyChildNames = propertyChildNames + that.data.goodsDetail.properties[i].name + ":"+ childs[j].name +"  ";
+          propertyChildNames = propertyChildNames + childs[j].name +"  ";
         }
       }
     }
@@ -248,6 +249,13 @@ Page({
     });
   },
   tobuy:function(){
+    if (!this.data.goodsDetail.properties) {
+      wx.showModal({
+        title: '请选择预约时间',
+        image: '../../images/popup-close.png'
+      });
+      return;
+    }
     if (this.data.goodsDetail.properties && !this.data.canSubmit) {
       this.bindGuiGeTap();
       return;

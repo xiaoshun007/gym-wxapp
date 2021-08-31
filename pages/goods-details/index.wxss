@@ -71,7 +71,7 @@ swiper-item image {
   font-size: 28rpx;
   line-height: 102rpx;
   margin-bottom: 28rpx;
-  background: #fff url(https://cdn.it120.cc/images/weappshop/arrow-right.png) no-repeat 697rpx center;
+  background: #fff url(https://dcdn.it120.cc/2021/08/31/2eeb99f5-4792-49ef-b588-9dec916d4b5d.png) no-repeat 697rpx center;
   background-size: 18rpx auto;
 }
 .goods-des-info{
@@ -204,7 +204,7 @@ swiper-item image {
   width: 36rpx;
   height: 36rpx;
   flex: 1;
-  background:url("https://cdn.it120.cc/images/weappshop/popup-close.png") no-repeat center center;
+  background:url("https://dcdn.it120.cc/2021/08/31/22b19e5c-cb98-46a7-8c9c-d97cfe0b87af.png") no-repeat center center;
   background-size: 36rpx auto;
   align-self: flex-start;
   margin-top: -10rpx;
