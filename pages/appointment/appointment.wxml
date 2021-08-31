@@ -5,7 +5,7 @@
       <view class="zan-cell__bd">上月明星教练</view>
       <view class="zan-cell__ft">Star</view>
     </view>
-        <block wx:for="{{ starCoaches }}" wx:key>
+        <block wx:for="{{ starCoaches }}" wx:key="unique">
             <!-- <navigator url="/pages/articles-detail/index?id={{item.id}}"> -->
             <view class="article__item">
                 <view class="article__thumb">
@@ -33,7 +33,7 @@
       <view class="zan-cell__bd">教练们</view>
       <view class="zan-cell__ft">Coaches</view>
     </view>
-        <block wx:for="{{ coaches }}">
+        <block wx:for="{{ coaches }}" wx:key="unique">
             <view class="article__item">
                 <view class="article__thumb">
                     <image class="article__image" src="{{ item.pic }}"></image>

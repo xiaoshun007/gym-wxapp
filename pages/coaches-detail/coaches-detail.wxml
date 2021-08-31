@@ -13,7 +13,7 @@
         </view>
         <view class="type-container">
             <scroll-view class="type-navbar" scroll-x="true" style="width: 100%">
-                <view class="type-box" wx:for-items="{{date}}">
+                <view class="type-box" wx:for-items="{{date}}" wx:key="unique">
                     <view id="{{item.id}}" class="type-navbar-item {{activedateid == item.id ? 'type-item-on' : ''}}" bindtap="tabClick">
                         {{item.datestr}}
                     </view>

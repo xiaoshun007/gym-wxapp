@@ -194,9 +194,16 @@ Page({
     return arr;
   },
   appointtap:function(){
-    if (this.data.selendTime === "请选择" || this.data.selstartTime === "请选择"){
-      wx.showToast({
-        title: '请先选择正确的预约时段',
+    if (this.data.selstartTime === "请选择"){
+      wx.showModal({
+        title: '请预约开始时间',
+        image: '../../images/popup-close.png'
+      });
+      return;
+    }
+    if (this.data.selendTime === "请选择"){
+      wx.showModal({
+        title: '请预约结束时间',
         image: '../../images/popup-close.png'
       });
       return;
